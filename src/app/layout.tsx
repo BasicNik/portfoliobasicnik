@@ -29,6 +29,7 @@ export default function RootLayout({
       <head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3754675341813777"
              crossOrigin="anonymous"></script>
+             <meta name="google-adsense-account" content="ca-pub-3754675341813777"></meta>
       </head>
       <body className={clsx(urbanist.className, "relative min-h-screen")}>
         <Header/>
