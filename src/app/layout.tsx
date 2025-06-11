@@ -26,7 +26,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='bg-slate-900 text-slate-200'>
-      
+      <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3754675341813777"
+             crossOrigin="anonymous"></script>
+      </head>
       <body className={clsx(urbanist.className, "relative min-h-screen")}>
         <Header/>
         {children}
