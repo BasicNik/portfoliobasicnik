@@ -29,9 +29,17 @@ export default function RootLayout({
       <head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3754675341813777"
              crossOrigin="anonymous"></script>
-             <meta name="google-adsense-account" content="ca-pub-3754675341813777"></meta>
+        <script async custom-element="amp-auto-ads"
+                src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+        </script>
+        <meta name="google-adsense-account" content="ca-pub-3754675341813777"></meta>
       </head>
       <body className={clsx(urbanist.className, "relative min-h-screen")}>
+        <div 
+          data-amp-auto-ads 
+          data-ad-client="ca-pub-3754675341813777"
+          style={{ display: 'none' }}
+        />
         <Header/>
         {children}
         <div className="absolute inset-0 -z-50 max-h-screen
